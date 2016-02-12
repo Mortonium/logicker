@@ -1,4 +1,5 @@
 SOURCES=main.cpp \
+		truth_table_mode.cpp \
 
 INCLUDE_DIRECTORIES=src \
 
