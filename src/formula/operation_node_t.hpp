@@ -9,6 +9,7 @@ namespace {
 	class operation_node_t : public node_t {
 
 	public:
+		virtual ~operation_node_t();
 
 	};
 

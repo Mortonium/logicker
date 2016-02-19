@@ -10,6 +10,7 @@ namespace {
 
 	public:
 		binary_node_t(node_t* left, node_t* right);
+		virtual ~binary_node_t();
 
 		node_t* left() { return left_; }
 		const node_t* left() const { return left_; }

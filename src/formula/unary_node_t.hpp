@@ -10,6 +10,7 @@ namespace {
 
 	public:
 		unary_node_t(node_t* operand);
+		virtual ~unary_node_t();
 
 		node_t* operand() { return operand_; }
 		const node_t* operand() const { return operand_; }
