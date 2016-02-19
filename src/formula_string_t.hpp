@@ -6,7 +6,17 @@ namespace {
 
 	using namespace std;
 
-	using formula_string_t = basic_string<symbol_t>;
+	class formula_string_t : public basic_string<symbol_t> {
+
+	public:
+		formula_string_t();
+		formula_string_t(const string& input);
+		formula_string_t(istream& input);
+
+	private:
+		void parse(istream& input);
+
+	};
 
 }
 
