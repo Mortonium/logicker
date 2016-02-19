@@ -1,6 +1,6 @@
 #pragma once
 
-namespace {
+namespace formula {
 
 	using namespace std;
 

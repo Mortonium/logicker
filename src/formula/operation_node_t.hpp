@@ -2,7 +2,7 @@
 
 #include "node_t.hpp"
 
-namespace {
+namespace formula {
 
 	using namespace std;
 

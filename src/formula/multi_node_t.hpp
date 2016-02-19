@@ -4,7 +4,7 @@
 
 #include "operation_node_t.hpp"
 
-namespace {
+namespace formula {
 
 	using namespace std;
 
