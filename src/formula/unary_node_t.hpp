@@ -1,12 +1,12 @@
 #pragma once
 
-#include "node_t.hpp"
+#include "operation_node_t.hpp"
 
 namespace {
 
 	using namespace std;
 
-	class unary_node_t : public node_t {
+	class unary_node_t : public operation_node_t {
 
 	public:
 		unary_node_t(node_t* operand);
