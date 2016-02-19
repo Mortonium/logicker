@@ -1,23 +1,23 @@
 #pragma once
 
-#include "statement_t.hpp"
+#include "node_t.hpp"
 
 namespace {
 
 	using namespace std;
 
-	class unary_operation_statement_t : public statement_t {
+	class unary_node_t : public node_t {
 
 	public:
-		unary_operation_statement_t(statement_t* operand);
+		unary_node_t(node_t* operand);
 
-		statement_t* operand() { return operand_; }
-		const statement_t* operand() const { return operand_; }
+		node_t* operand() { return operand_; }
+		const node_t* operand() const { return operand_; }
 
-		void set_operand(statement_t* val) { operand_ = val; }
+		void set_operand(node_t* val) { operand_ = val; }
 
 	private:
-		statement_t* operand_;
+		node_t* operand_;
 
 	};
 

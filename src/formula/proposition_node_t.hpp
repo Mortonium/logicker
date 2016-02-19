@@ -1,16 +1,16 @@
 #pragma once
 
-#include "statement_t.hpp"
+#include "node_t.hpp"
 #include "proposition_symbol_t.hpp"
 
 namespace {
 
 	using namespace std;
 
-	class proposition_statement_t : public statement_t {
+	class proposition_node_t : public node_t {
 
 	public:
-		proposition_statement_t(proposition_symbol_t symbol);
+		proposition_node_t(proposition_symbol_t symbol);
 
 	private:
 		proposition_symbol_t symbol_;

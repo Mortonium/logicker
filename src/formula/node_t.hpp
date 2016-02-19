@@ -4,7 +4,7 @@ namespace {
 
 	using namespace std;
 
-	class statement_t {
+	class node_t {
 
 	public:
 
