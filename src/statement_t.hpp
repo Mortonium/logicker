@@ -4,7 +4,7 @@ namespace {
 
 	using namespace std;
 
-	class clause_t {
+	class statement_t {
 
 	public:
 
