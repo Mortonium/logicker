@@ -1,5 +1,6 @@
 SOURCES=main.cpp \
 		truth_table_mode.cpp \
+		tokenizer_t.cpp \
 
 INCLUDE_DIRECTORIES=src \
 
